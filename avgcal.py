@@ -8,10 +8,10 @@ globalcouter = 0
 avg = 0
 totalavg = 0
 
-howmany = input ('Enter how many numbers we are Averaging?>> ')
+howmany = int(input('Enter how many numbers we are Averaging?>> '))
 
 while howmany > globalcouter:
-    usernums = input ('What are the numbers we are averaging?>> ')
+    usernums = int(input('What are the numbers we are averaging?>> '))
     globalcouter += 1
     avg = usernums + avg
 else:
